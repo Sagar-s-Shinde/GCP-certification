@@ -1,0 +1,216 @@
+Here is a **focused 7-day crash course** to prepare for the **Google Cloud Associate Cloud Engineer** exam. This plan assumes **3–4 hours per day** and focuses only on **high-probability exam topics**. 🚀
+
+---
+
+# ⚡ 7-Day Crash Course for GCP Associate Cloud Engineer
+
+## Day 1 — GCP Basics & IAM
+
+Understand how GCP is structured.
+
+Topics:
+
+* Projects, folders, organization
+* Billing
+* Regions & zones
+* Service accounts
+* IAM roles
+
+Important services:
+
+* **Google Cloud IAM**
+* **Cloud Resource Manager**
+* **Cloud Identity**
+
+Practice:
+
+* Create a project
+* Assign IAM roles
+* Create service account
+
+CLI commands to learn:
+
+```
+gcloud projects create
+gcloud iam service-accounts create
+gcloud projects add-iam-policy-binding
+```
+
+---
+
+# Day 2 — Compute Services
+
+Focus on running workloads.
+
+Services:
+
+* **Google Compute Engine**
+* **Google Kubernetes Engine**
+* **Cloud Run**
+* **App Engine**
+
+Concepts:
+
+* VM instances
+* Instance templates
+* Managed instance groups
+* Autoscaling
+
+Practice:
+
+* Create VM
+* SSH into VM
+* Deploy container to Cloud Run
+
+---
+
+# Day 3 — Networking
+
+Networking questions appear **a lot in the exam**.
+
+Learn:
+
+* **Virtual Private Cloud**
+* **Cloud Load Balancing**
+* **Cloud DNS**
+* **Cloud NAT**
+
+Important concepts:
+
+* Firewall rules
+* Subnets
+* Internal vs external IP
+* Load balancers
+
+Practice:
+
+* Create VPC
+* Create subnet
+* Configure firewall rule
+
+---
+
+# Day 4 — Storage & Databases
+
+Data storage questions are common.
+
+Services:
+
+* **Cloud Storage**
+* **Cloud SQL**
+* **Firestore**
+* **BigQuery**
+
+Key concepts:
+
+* Storage classes
+* Lifecycle rules
+* Managed databases
+
+Practice:
+
+* Upload object to bucket
+* Query dataset in BigQuery
+* Create Cloud SQL instance
+
+---
+
+# Day 5 — Monitoring & DevOps
+
+Operations is a major exam domain.
+
+Services:
+
+* **Cloud Monitoring**
+* **Cloud Logging**
+* **Cloud Build**
+* **Artifact Registry**
+
+Practice:
+
+* Create alert policy
+* View logs
+* Deploy build pipeline
+
+---
+
+# Day 6 — Security + Practice Exam
+
+Security questions appear frequently.
+
+Topics:
+
+* IAM roles
+* Service accounts
+* Security best practices
+* Identity federation
+
+Services:
+
+* **Secret Manager**
+* **Cloud KMS**
+
+Then take **2 full practice exams**.
+
+Recommended platforms:
+
+* **Whizlabs**
+* **Udemy**
+* **Google Cloud**
+
+---
+
+# Day 7 — Final Revision
+
+Review only **high-frequency topics**.
+
+Focus on:
+
+* IAM roles
+* VPC networking
+* gcloud commands
+* Storage classes
+* Deployment methods
+
+Memorize these CLI commands:
+
+```
+gcloud compute instances create
+gcloud container clusters create
+gcloud storage buckets create
+gcloud sql instances create
+```
+
+Take **one final practice test**.
+
+---
+
+# 🎯 Most Asked Services in the Exam
+
+Prioritize these:
+
+* **Compute Engine**
+* **Cloud Storage**
+* **Google Kubernetes Engine**
+* **IAM**
+* **VPC**
+* **Cloud SQL**
+
+---
+
+# 💡 Pro Tips (Very Important)
+
+✔ Learn **when to choose each service**
+✔ Practice **CLI commands**
+✔ Do **hands-on labs**
+✔ Study **Google architecture scenarios**
+
+Exam questions are **scenario-based**, not just theory.
+
+---
+
+✅ If you want, I can also give you:
+
+* **40 real-style GCP ACE practice questions** (very close to exam)
+* **Most important `gcloud` commands cheat sheet**
+* **Top 20 services cheat sheet for quick revision** (extremely useful before exam).
