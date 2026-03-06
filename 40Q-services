@@ -1,0 +1,310 @@
+Below is a **compact exam-focused pack** for the **Google Cloud Associate Cloud Engineer** exam:
+1️⃣ 40 real-style questions
+2️⃣ Most important `gcloud` commands
+3️⃣ Top 20 services cheat sheet
+
+This mirrors the **actual exam style (scenario-based)**. 🚀
+
+---
+
+# 🧠 40 Real-Style Practice Questions (ACE Level)
+
+### IAM & Security
+
+**1.** You want a user to manage VM instances but not modify IAM. Which role should you assign?
+A. Owner
+B. Editor
+C. Compute Admin
+D. Security Admin
+
+Answer: **C**
+
+---
+
+**2.** What is the best way for an application running on a VM to access GCP services securely?
+
+A. Store credentials in code
+B. Use API keys
+C. Use **service accounts**
+D. Use OAuth manually
+
+Answer: **C**
+
+---
+
+**3.** Where should secrets such as database passwords be stored?
+
+A. Cloud Storage
+B. Environment variables
+C. **Secret Manager**
+D. BigQuery
+
+Answer: **C**
+
+---
+
+**4.** What hierarchy level comes after organization?
+
+A. Folder
+B. Zone
+C. Region
+D. Instance
+
+Answer: **A**
+
+---
+
+# Compute
+
+**5.** Which service runs containerized apps without managing infrastructure?
+
+A. **Cloud Run**
+B. **Compute Engine**
+C. **App Engine**
+D. **Google Kubernetes Engine**
+
+Answer: **A**
+
+---
+
+**6.** What feature automatically adds or removes VM instances?
+
+Answer: **Autoscaling**
+
+---
+
+**7.** Which service provides managed Kubernetes clusters?
+
+Answer: **Google Kubernetes Engine**
+
+---
+
+# Networking
+
+**8.** What network service connects GCP resources?
+
+Answer: **Virtual Private Cloud**
+
+---
+
+**9.** Which component controls traffic rules?
+
+Answer: **Firewall rules**
+
+---
+
+**10.** Which service distributes traffic globally?
+
+Answer: **Cloud Load Balancing**
+
+---
+
+# Storage
+
+**11.** Which service stores objects like images and backups?
+
+Answer: **Cloud Storage**
+
+---
+
+**12.** Cheapest storage class for archival data?
+
+Answer: **Archive storage**
+
+---
+
+**13.** Which service runs relational databases?
+
+Answer: **Cloud SQL**
+
+---
+
+# Data & Analytics
+
+**14.** Which service runs serverless data warehouse queries?
+
+Answer: **BigQuery**
+
+---
+
+**15.** Which NoSQL database is fully managed?
+
+Answer: **Firestore**
+
+---
+
+# Monitoring & Logging
+
+**16.** Which service monitors infrastructure metrics?
+
+Answer: **Cloud Monitoring**
+
+---
+
+**17.** Which service collects logs?
+
+Answer: **Cloud Logging**
+
+---
+
+# DevOps
+
+**18.** Which service builds containers automatically?
+
+Answer: **Cloud Build**
+
+---
+
+**19.** Where are container images stored?
+
+Answer: **Artifact Registry**
+
+---
+
+# Architecture
+
+**20.** Which service is best for serverless HTTP apps?
+
+Answer: **Cloud Run**
+
+---
+
+# More Exam-Style Questions (21-40)
+
+Quick answers:
+
+21. Global DNS → **Cloud DNS**
+
+22. Managed Spark/Hadoop → **Dataproc**
+
+23. Event messaging → **Pub/Sub**
+
+24. Workflow orchestration → **Cloud Composer**
+
+25. Secret encryption → **Cloud KMS**
+
+26. Container registry → Artifact Registry
+
+27. Serverless functions → **Cloud Functions**
+
+28. Cost monitoring → Billing reports
+
+29. Log analysis → Cloud Logging
+
+30. CI/CD automation → Cloud Build
+
+31. Backup VM disks → snapshots
+
+32. Identity federation → IAM
+
+33. Deploy Kubernetes cluster → GKE
+
+34. Secure API keys → Secret Manager
+
+35. Static website hosting → Cloud Storage
+
+36. Internal DNS → Cloud DNS
+
+37. Scale container apps → Cloud Run
+
+38. Run ML training → **Vertex AI**
+
+39. Event streaming → Pub/Sub
+
+40. Infrastructure automation → **Deployment Manager**
+
+---
+
+# ⚙️ Most Important `gcloud` Commands Cheat Sheet
+
+### Authentication
+
+```bash
+gcloud auth login
+gcloud config set project PROJECT_ID
+```
+
+### Compute Engine
+
+```bash
+gcloud compute instances create vm-1
+gcloud compute instances list
+gcloud compute instances delete vm-1
+```
+
+### Kubernetes
+
+```bash
+gcloud container clusters create cluster-1
+gcloud container clusters get-credentials cluster-1
+```
+
+### Storage
+
+```bash
+gcloud storage buckets create gs://bucket-name
+gcloud storage cp file.txt gs://bucket-name
+```
+
+### Cloud SQL
+
+```bash
+gcloud sql instances create mysql-db
+gcloud sql databases create mydb
+```
+
+### IAM
+
+```bash
+gcloud iam service-accounts create my-sa
+gcloud projects add-iam-policy-binding
+```
+
+---
+
+# 🚀 Top 20 GCP Services Cheat Sheet (Must Know)
+
+| Category       | Service                      |
+| -------------- | ---------------------------- |
+| Compute        | **Compute Engine**           |
+| Containers     | **Google Kubernetes Engine** |
+| Serverless     | **Cloud Run**                |
+| App hosting    | **App Engine**               |
+| Functions      | **Cloud Functions**          |
+| Object storage | **Cloud Storage**            |
+| Relational DB  | **Cloud SQL**                |
+| NoSQL          | **Firestore**                |
+| Analytics      | **BigQuery**                 |
+| Networking     | **Virtual Private Cloud**    |
+| Load balancing | **Cloud Load Balancing**     |
+| DNS            | **Cloud DNS**                |
+| Messaging      | **Pub/Sub**                  |
+| Monitoring     | **Cloud Monitoring**         |
+| Logging        | **Cloud Logging**            |
+| CI/CD          | **Cloud Build**              |
+| Images         | **Artifact Registry**        |
+| Secrets        | **Secret Manager**           |
+| Encryption     | **Cloud KMS**                |
+| AI             | **Vertex AI**                |
+
+---
+
+# 🎯 Final Exam Tip
+
+The **ACE exam mostly tests:**
+
+* IAM permissions
+* Choosing correct GCP service
+* Networking basics
+* `gcloud` commands
+* Deployment scenarios
+
+Hands-on knowledge helps **a lot**.
+
+---
+
+✅ If you want, I can also give you:
+
+* **10 real exam case studies (very close to real questions)**
+* **ACE architecture diagrams you must understand**
+* **Free hands-on labs used by Google Cloud training**.
