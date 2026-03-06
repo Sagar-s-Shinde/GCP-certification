@@ -1,0 +1,218 @@
+Here are **10 scenario-based case studies** similar to what appears in the **Google Cloud Associate Cloud Engineer** exam.
+In the real exam, you usually get **a scenario + choose the best GCP service/solution**. 🎯
+
+---
+
+# 1️⃣ Web Application Scaling
+
+A company hosts a web application on **VM instances**. Traffic increases during business hours and decreases at night. They want automatic scaling and high availability.
+
+Which solution should you implement?
+
+**Options**
+A. Use single VM with larger machine type
+B. Use instance templates + managed instance groups with autoscaling
+C. Use manual scaling
+D. Use Cloud SQL
+
+✅ **Answer:** B
+
+Use:
+
+* **Compute Engine**
+* Managed Instance Group
+* Autoscaling
+* **Cloud Load Balancing**
+
+---
+
+# 2️⃣ Secure Application Credentials
+
+An application needs database passwords but you must **avoid storing credentials in code**.
+
+What should you use?
+
+**Options**
+A. Store in Cloud Storage
+B. Store in environment variables
+C. Use **Secret Manager**
+D. Store in Git repository
+
+✅ **Answer:** C
+
+---
+
+# 3️⃣ Serverless Container Deployment
+
+A team wants to deploy a **containerized application** without managing servers.
+
+What service should they use?
+
+Options:
+
+A. **Cloud Run**
+B. **Compute Engine**
+C. **Google Kubernetes Engine**
+D. **App Engine**
+
+✅ **Answer:** A
+
+Cloud Run is fully **serverless for containers**.
+
+---
+
+# 4️⃣ Data Analytics Platform
+
+A company needs to analyze **petabytes of data** quickly with SQL queries.
+
+Which service should be used?
+
+Options:
+
+A. **Cloud SQL**
+B. **BigQuery**
+C. **Firestore**
+D. **Compute Engine**
+
+✅ **Answer:** B
+
+BigQuery is a **serverless data warehouse**.
+
+---
+
+# 5️⃣ Highly Available Database
+
+A production application requires a **managed relational database with automatic backups and high availability**.
+
+What should you use?
+
+Options:
+
+A. Install MySQL on VM
+B. **Cloud SQL**
+C. Firestore
+D. Cloud Storage
+
+✅ **Answer:** B
+
+---
+
+# 6️⃣ Application Logging
+
+A DevOps team wants to **collect logs from applications and VMs** and analyze them centrally.
+
+What service should they use?
+
+Options:
+
+A. **Cloud Logging**
+B. **Cloud Monitoring**
+C. **Cloud DNS**
+D. **Cloud Storage**
+
+✅ **Answer:** A
+
+---
+
+# 7️⃣ Event Messaging System
+
+A system needs to process **millions of asynchronous events** between services.
+
+Which service should you choose?
+
+Options:
+
+A. **Pub/Sub**
+B. BigQuery
+C. Cloud SQL
+D. Cloud Run
+
+✅ **Answer:** A
+
+Pub/Sub provides **event-driven messaging**.
+
+---
+
+# 8️⃣ Secure VM Access
+
+Developers need to SSH into VMs **without managing SSH keys manually**.
+
+What should you use?
+
+Options:
+
+A. Static SSH keys
+B. OS Login with IAM
+C. Cloud Storage
+D. VPN
+
+✅ **Answer:** B
+
+Use **IAM-based OS Login**.
+
+---
+
+# 9️⃣ Static Website Hosting
+
+A company wants to host a **static website (HTML/CSS/JS)** cheaply.
+
+Best solution?
+
+Options:
+
+A. Compute Engine
+B. **Cloud Storage**
+C. BigQuery
+D. Cloud SQL
+
+✅ **Answer:** B
+
+Cloud Storage supports **static website hosting**.
+
+---
+
+# 🔟 Infrastructure as Code
+
+A team wants to deploy infrastructure using **configuration files instead of manual setup**.
+
+Which service should be used?
+
+Options:
+
+A. **Deployment Manager**
+B. Cloud Logging
+C. Cloud Storage
+D. Compute Engine
+
+✅ **Answer:** A
+
+Deployment Manager enables **Infrastructure as Code**.
+
+---
+
+# 🧠 Key Pattern in ACE Exam
+
+Most questions ask:
+
+> **Which GCP service best solves this problem?**
+
+You should quickly map **problem → correct service**.
+
+Example:
+
+| Problem            | Service                      |
+| ------------------ | ---------------------------- |
+| Containers         | **Cloud Run**                |
+| VM workloads       | **Compute Engine**           |
+| Managed Kubernetes | **Google Kubernetes Engine** |
+| Analytics          | **BigQuery**                 |
+| Messaging          | **Pub/Sub**                  |
+| Secrets            | **Secret Manager**           |
+
+---
+
+✅ If you want, I can also show you:
+
+* **The 15 most common mistakes people make in the ACE exam**
+* **5 architecture diagrams you must understand**
+* **The fastest way people pass the ACE exam in 3–4 days** (many engineers use this strategy).
